@@ -23,7 +23,7 @@ if (edad >= 18)
 
  
 
-}
+
 
 let modooscuro = confirm("deseas cambiar a modo oscuro?")
 let body = document.querySelector("body")
