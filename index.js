@@ -11,19 +11,13 @@ if (confirmacion == false) {titulo.innerHTML ="Lamentamos que no quieras continu
 
   edad = prompt ("ingrese su edad");
   if (edad <18) {acceso = alert("prohibido su acceso")}
-  else if (edad>=18){acceso = alert("permitido su acceso"); 
-
-let modooscuro = confirm("deseas cambiar a modo oscuro?" )
-let body = document.querySelector("body")
+  else if (edad>=18){acceso = alert("permitido su acceso"); oscuro = confirm("deseas cambiar a modo oscuro?")
+  let body = document.querySelector("body")
  
-if (modooscuro == true) {
- body.style.backgroundColor = "dimgray"
- body.style.color = "white" }
+if (oscuro == true) {body.style.backgroundColor = "dimgray";body.style.color = "white"}
 
-  let diaDeSemana = "Domingo"
- if (diaDeSemana == "Domingo") {
-    console.log("¡Hoy es día de descanso!") }
- 
+  diaDeSemana = ("Domingo")
+  if (diaDeSemana = "Domingo"){alert("Hoy es dia de descanso!")} }
 
 
   
